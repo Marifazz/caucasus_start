@@ -10,17 +10,59 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
+    
+    overflow: hidden;
  
 }
 
-.top-nav{
+.top-nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
     width: 100%;
-    padding: 0 79px ;
+    
 }
+
+
+.top-menu {
+    padding: 0;
+    width: 83.19px;
+    height: 14px;
+    position: absolute;
+    left: 514.08px;
+    top: 69px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 158.86%;
+}
+
+
+.top_phone {
+    display: block;
+    position: absolute;
+    width: 164px;
+    height: 16px;
+    left: 1155px;
+    top: 68px;
+    color: #ffffff;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 158.86%;
+
+
+  
+
+
+
+
+   
 
 
 

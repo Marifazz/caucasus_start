@@ -58,6 +58,7 @@ body {
     font-weight: bold;
     font-size: 19px;
     line-height: 158.86%;
+}
 
 .tour_elb {
     background-image: url("../images/эльбрус.png");
@@ -142,3 +143,4 @@ body {
 
     background: #FFFFFF;
 }
+

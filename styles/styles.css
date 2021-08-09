@@ -2,6 +2,10 @@
 
 body {
     font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -11,6 +15,8 @@ body {
     background-size: cover;
     background-position: center;
     position: relative;
+    height: 774px;
+    margin: 0;
     
     overflow: hidden;
  
@@ -21,28 +27,41 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    width: 100%;
+    width: 700px;
+    margin-top: 45px;
+
     
 }
 
 
-.top-nav_menu {
-    padding: 0;
-    width: 83.19px;
-    height: 14px; 
-    position: absolute;
-    left: 514.08px;
-    top: 69px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 158.86%;
-    display: inline-block;
-    flex-direction: column;
+ul.top-nav_menu li {
+    
+    
+   
+    display: inline;
     justify-content: space-between;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25px;
+    align-items: center;
+    list-style: none;
+    color: #ffffff;
+    
+
 }
 
+.menu1 {
+
+    list-style: none;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    margin-right: 46px;
+}
 
 .top-phone {
     display: block;
@@ -53,62 +72,183 @@ body {
     top: 68px;
     color: #fff;
 
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: bold;
     font-size: 19px;
     line-height: 158.86%;
 }
 
-.tour_elb {
-    background-image: url("../images/эльбрус.png");
+.top-phone2 {
     position: absolute;
+    width: 164px;
+    height: 16px;
+    left: 1156px;
+    top: 5169px;
+    color: #2D383F;
+    
+
+}
+
+.top-phone-text {
+    color: #ffffff;
+
+}
+
+.top-phone-text2 {
+    color: #2D383F;
+}
+.banner1 {
+    position: absolute;
+    width: 586px;
+    height: 55px;
+    left: 105px;
+    top: 242px;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+.banner2 {
+    position: absolute;
+    width: 468px;
+    height: 57px;
+    left: 122px;
+    top: 359px;
+    color: #ffffff;
+}
+
+.button1 {
+    position: absolute;
+    width: 246px;
+    height: 59px;
+    background: #0266C1; 
+    color: #ffffff; 
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal; 
+    margin-top: 35px;
+}
+
+.top-vk {
+    height: 21.30434799194336px;
+    width: 21.30434799194336px;
+    left: 1219px;
+    top: 625px;
+    border-radius: 0px;
+    position: absolute;
+    width: 21.3px;
+    height: 21.3px;
+    left: 1219px;
+    top: 625px;
+
+    background: #0266C1;
+    opacity: 0.43;
+    margin-right: 22px;
+
+
+
+}
+
+.top-fb {
+    height: 21.30434799194336px;
+    width: 21.30434799194336px;
+    left: 1257.34765625px;
+    top: 625px;
+    border-radius: 0px;
+    position: absolute;
+    width: 21.3px;
+    height: 21.3px;
+    left: 1257.35px;
+    top: 625px;
+
+    background: #0266C1;
+    opacity: 0.43;
+
+}
+
+.top-inst {
+
+    height: 21.30434799194336px;
+    width: 21.30434799194336px;
+    left: 1295.69580078125px;
+    top: 625px;
+    border-radius: 0px;
+    position: absolute;
+    width: 21.3px;
+    height: 21.3px;
+    left: 1295.7px;
+    top: 625px;
+
+    background: #0266C1;
+    opacity: 0.43;
+
+}    
+
+.logo_caucasus {
+    position: absolute;
+    width: 142px;
+    height: 34px;
+    left: 206px;
+    top: 56px;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 28px;
+    color: #ffffff;
+    
+}
+
+.top_text {
+    position: absolute;
+    width: 123px;
+    height: 10px;
+    left: 205.9px;
+    top: 85.13px;
+    color: #ffffff;
+    line-height: 9.75px;
+    size: 8px;
+
+}
+.tour-cards {
+    display: inline;
+    justify-content: center;
+}
+
+.tour {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 384.17px;
     height: 412px;
-    left: 121px;
-    top: 939px;
+    margin-right: 8px;
+    
 
-    background: linear-gradient(0deg, #000000 22.3%, rgba(0, 0, 0, 0) 60.32%);
-    opacity: 0.58;
+}
+
+.tour_elb {
+    background-image: url("../images/эльбрус.png");
+
 }
 
 .tour_stol {
     background-image: url("../images/столовая.png"); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    position: absolute;
-    width: 384.17px;
-    height: 412px;
-    left: 525.91px;
-    top: 939px;
-
-    background: linear-gradient(0deg, #000000 22.3%, rgba(0, 0, 0, 0) 60.32%);
-    opacity: 0.77;
-   
-}     
+    
+    
+}
+    
+    
 
 .tour_fisht {
     background-image: url("../images/фишт.png");   
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 384.17px;
-    height: 412px;
-    left: 931px;
-    top: 939px;
-
-    background: linear-gradient(0deg, #000000 22.3%, rgba(0, 0, 0, 0) 60.32%);
-    opacity: 0.58;
+    
+    
 }
 
-.social {
-    last-stile: none;
-    margin: 0;
-    padding: 0;
+
+.social2 {
     display: flex;
-    align-items: start;
-    justify-content: ;
 }
 
 .menu {
@@ -134,13 +274,96 @@ body {
     top: 0%;
     bottom: -0.11%;
 
-    background: #FFFFFF;
-    position: absolute;
-    left: 18.41%;
-    right: 27.12%;
-    top: 38.15%;
-    bottom: 35.06%;
+  
+    }
 
-    background: #FFFFFF;
+.footer-menu {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.menu2 {
+    margin-right: 46px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #2D383F;
+}
+
+.footer-vk {
+    height: 28.30434799194336px;
+    width: 28.30434799194336px;
+    left: 655px;
+    top: 5219px;
+    border-radius: 0px;
+    position: absolute;
+    width: 28.3px;
+    height: 28.3px;
+    left: 655px;
+    top: 5219px;
+
+    opacity: 0.43;
+    border: 1px solid #2D383F;
+    box-sizing: border-box;
+}
+
+.footer-fb {
+    height: 28.30434799194336px;
+    width: 28.30434799194336px;
+    left: 705.94775390625px;
+    top: 5219px;
+    border-radius: 0px;
+    position: absolute;
+    width: 28.3px;
+    height: 28.3px;
+    left: 705.95px;
+    top: 5219px;
+
+    opacity: 0.43;
+    border: 1px solid #2D383F;
+    box-sizing: border-box;
+}
+
+.footer-inst {
+    height: 28.30434799194336px;
+    width: 28.30434799194336px;
+    left: 756.89599609375px;
+    top: 5219px;
+    border-radius: 0px;
+    position: absolute;
+    width: 28.3px;
+    height: 28.3px;
+    left: 756.9px;
+    top: 5219px;
+
+    opacity: 0.43;
+    border: 1px solid #2D383F;
+    box-sizing: border-box;
+}
+
+
+.policy_text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 202.19%;
+    color: #2D383F;
+}
+
+.Policy {
+    position: absolute;
+    width: 202px;
+    height: 25px;
+    left: 619px;
+    top: 5281px;
+    display: inline;
+}
+
+ul.top-menu2 li {
+    display: inline;
+
+}
